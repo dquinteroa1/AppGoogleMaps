@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logo"
+            android:id="@+id/placeImageView"
+            android:scaleType="centerCrop"/>
+
+        <!-- Nombre del lugar -->
+        <TextView
+            android:id="@+id/placeNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre del Lugar"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Dirección del lugar -->
+        <TextView
+            android:id="@+id/placeAddressTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dirección del Lugar"
+            android:textSize="14sp" />
+
+        <!-- Otras vistas, como el logo y horarios, pueden ser agregadas aquí según tus necesidades -->
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

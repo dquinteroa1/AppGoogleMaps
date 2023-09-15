@@ -39,6 +39,7 @@ dependencies {
     implementation ("com.google.android.gms:play-services-maps:17.0.1")
     implementation ("com.google.android.gms:play-services-places:17.0.0")
     implementation ("com.google.android.gms:play-services-location:17.0.0")
+    implementation ("com.squareup.picasso:picasso:2.71828")
     testImplementation("junit:junit:4.13.2")
 
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
